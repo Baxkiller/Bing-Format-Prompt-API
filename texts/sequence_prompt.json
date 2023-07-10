@@ -1,0 +1,7 @@
+{
+  "introduce": "你认为论文《{}》有什么值得借鉴的，可应用到其他LLM模型研究领域的内容？",
+  "label": "很好，请你根据这篇论文的内容，从下列列表中选择出所有适合该论文的标签，并对每个选择的标签结合论文的内容给出解释：\n[tech, Chain-of-Thought, application in specific scenarios of LLM, discussion of LLM capability defects, LLM Improvement, instruction tuning, RLHF, fine-tuning, ]",
+  "research": "What research questions does the paper want to resolve?",
+  "innovation": "Good. And what's the innovation points or Contribution of this paper?",
+  "contribution": "给定论文《{}》\n请你用一句话总结该论文的结论，以下是几个例子：\n1. Paper:<Minilm: Deep self-attention distillation for task-agnostic compression of pre-trained transformers>\n\nContribution: Works on open-box model show that richer signals such as logits, intermediate representations and attention states can significantly improve distillation performance. \n\n2. Paper: <Distilling step-by-step! outperforming larger language models with less training data and smaller model sizes>\n\nContribution: Demonstrating that richer signals like LFM rationales can help close the gap for task-specific distillation.\n\n请你仿照上述例子，给出该论文的一句话结论贡献总结。"
+}
